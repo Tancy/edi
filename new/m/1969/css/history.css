@@ -1,0 +1,22 @@
+
+/* ************************************************************
+    cover
+************************************************************ */
+
+.cover-img {
+    background: #000 url("../img/cover-img.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+/* ************************************************************
+    footer
+************************************************************ */
+
+.footer-img {
+    background: #000 url("../../1970/img/cover-img.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+

@@ -1,0 +1,352 @@
+{
+  "lang_id": "global",
+  "items": [
+    {
+      "id": "Technics1",
+      "year": "1965",
+      "indexCopy": "Further Developing Music Culture<br>through Technology",
+      "detailLead": "Birth of the Technics Brand",
+      "detailBody": "In 1965, a high-end speaker system, Technics 1, was released. It marked the birth of the Technics brand and the origin of Technics products. In a product announcement event, Technics 1 demonstrated its powerful sound reproduction performance, unimaginable from its cabinet size, to high acclaim from audio critics. The product eventually proved to be a major hit in the market. <br>“Enhancing acoustic characteristics is the path to improving sound quality”. That was the Technics approach at the time. Technics grew to be a global brand by launching superb products backed by a vast amount of research results and advanced technologies. It didn’t rely only on auditory evaluations.",
+      "responses": [
+        {
+          "message": "This is the Technics’ first speaker!"
+        },
+        {
+          "id": "France",
+          "message": "It is stll greatly banging at my place."
+        }
+      ],
+      "link": ""
+    },
+    {
+      "id": "Technics50A",
+      "year": "1969",
+      "indexCopy": "Revolutionising <br>Transistor Amplifiers",
+      "detailLead": "Technics’ First <br>Integrated Amplifier",
+      "detailBody": "Technics’ first transistor integrated amplifier, the Technics 50A, used OCL circuitry in its power amplifier section, following its successful use in the Technics 20A power amplifier. In addition, the 50A incorporated PNP-type low-noise transistors in the preamplifier section. Featuring many innovative technologies, the 50A was showcased in the marketplace. To dispel the common notion that transistor amplifiers produced “hard” sounds, the 50A was designed to emanate “warmth” through its acrylic panel with illuminated indications. <br>The 50A and other Technics amplifiers continued to by highly evaluated for their unique concepts and reliable technologies.",
+      "responses": [
+        {
+          "id": "Russia",
+          "message": "It was released when I was 4 years old. <br>Great tradition, Technics!"
+        },
+        {
+          "id": "Japan",
+          "message": "Nostalgic. The inner corners of my eyes will be hot!"
+        }
+      ],
+      "link": ""
+    },
+    {
+      "id": "SP-10",
+      "year": "1970",
+      "indexCopy": "Dawn of a New Era for Turntables",
+      "detailLead": "The Story of Technics <br>Direct-drive Turntables",
+      "detailBody": "At Technics, the development of a direct-drive turntable began when a customer wanted a turntable that could be used in a cold area where temperatures often dropped below freezing, unlike an ordinary turntable whose drive belt would harden and slip under low temperatures. While improving the belt material, Technics also embarked on the challenge of developing a new type of drive system in order to resolve these problems from the ground up. After overcoming many difficulties, Technics successfully developed a direct-drive system to rotate the turntable with a low-speed motor.<br>The SP-10 was the first to be equipped with a DD motor, and boasted unparalleled performance. Because of its high reliability, BBC and many other broadcasting stations around the world began using the SP-10. The SP-10 triggered Technics DD turntables’ worldwide popularity.",
+      "responses": [
+        {
+          "id": "Mexico",
+          "message": "Bring back those magnificent direct-drive beasts! <br>We need them!"
+        }
+      ],
+      "link": ""
+    },
+    {
+      "id": "SE-10000",
+      "year": "1972",
+      "indexCopy": "Building a Bond with Dealers for<br>More Than 30 Years",
+      "detailLead": "Technics Seminar",
+      "detailBody": "In early summer of 1972, the first Technics Seminar was held in Bürgenstock, Switzerland. It aimed to disseminate new product information to dealers gathered from all across Europe and also to directly learn about market demand and requests so that the information could be applied to product development. Technics continued to expand and deepen its associations with dealers year after year, for example, by inviting them to Japan and holding seminars for audio critics.",
+      "responses": [
+        {
+          "id": "USA",
+          "message": "How nice would it be to hook up a pair of <br>my decks to SE-10000"
+        },
+        {
+          "message": "Absolutely top class. Wish they made them like this again."
+        },
+        {
+          "message": "Beautiful… It must be added to my collection."
+        }
+      ],
+      "link": ""
+    },
+    {
+      "id": "SB-7000",
+      "year": "1975",
+      "indexCopy": "Historic Turning Point for<br>Speaker Systems",
+      "detailLead": "Development of <br>the Linear-phase Speaker",
+      "detailBody": "Technics addressed the topic of “faithful reproduction of music waveforms”, and, for the first time in the world, successfully developed a linear-phase speaker system that resolved the phase characteristic problem. <br>The model incorporating this technology, Technics 7 (SB-7000), achieved flat phase characteristics - both theoretically and in actual measurements - by featuring a unique staircase-like structure and advanced network. Technics 7 achieved a sales record of 100,000 units. It defied the then-conventional idea that the human ear could not recognise phase differences, and had an immense impact on speakers produced thereafter.",
+      "responses": [
+        {
+          "id": "Finland",
+          "message": "SB-7000 from 1975 is for me!"
+        },
+        {
+          "message": "I think it must be amazing speakers <br>when I see it specifications. Great job, Technics!"
+        },
+        {
+          "id": "USA",
+          "message": "Its big driver creates big music every time."
+        },
+        {
+          "message": "This is my good old friend!!"
+        }
+      ],
+      "link": ""
+    },
+    {
+      "id": "RS-1500U",
+      "year": "1976",
+      "indexCopy": "A Reel-to-Reel Tape Deck <br>to Symbolise 100 Years <br>of Audio History",
+      "detailLead": "Isolated-Loop-System <br>Open-Reel Tape Deck",
+      "detailBody": "The market for open-reel tape decks was in a state of transition in the 1970s. To respond to the growing demand for high performance, Technics took a completely new approach to tape deck development. Then, it successfully developed an original single-capstan closed-loop system using a direct-drive motor, when it was common for tape decks to employ a dual-capstan system in their transport sections. The new system not only reduced the product cost, but also realised stable tape transport, reduced noise and higher performance. The new model, the RS-1500U, was well accepted by the market, and became a high-selling product.<br>The following year, 1977, was the 100th year of Edison’s invention of the phonograph. A German audio magazine ran a feature article on “audio equipment toward the next 200 years”, and featured the 100-year-old phonograph and the RS-1500U. Among the many audio products available around the world, the Technics RS-1500U was chosen to symbolise 100 years of audio history.",
+      "responses": [
+        {
+          "id": "South Africa",
+          "message": "Fabulous piece of recording hardware."
+        },
+        {
+          "message": "I always wanted this open reel tape deck. Very nice!"
+        },
+        {
+          "id": "Netherlands",
+          "message": "Timeless beauty …"
+        },
+        {
+          "id": "UK",
+          "message": "Work of art. I’d put it on a shelf and stare at it. <br>Then, I’d polish it and stare at is more. Maybe on <br>Christmas day, I’d use it for a treat."
+        }
+      ],
+      "link": ""
+    },
+    {
+      "id": "SE-A1",
+      "year": "1977",
+      "indexCopy": "In Pursuit of the World’s<br>Best Amplifier System",
+      "detailLead": "SE-A1 Power Amplifier and <br>SU-A2 Control Amplifier",
+      "detailBody": "Technics tackled the challenge of “faithful reproduction of original sounds” to address this eternal theme in the field of Hi-Fi audio technology. It applied all of its advanced technologies to create the SE-A1 and SU-A2. <br>The single largest feature of the SE-A1 Power Amplifier was its newly developed Class A+ operation. This model offered low-distortion, high-quality sound with a remarkably high output of 350 W. The SU-A2 Control Amplifier had a cabinet that was very large for that time. It incorporated many newly developed parts including a super-low-noise FET, and achieved low distortion and a high S/N ratio using Class A operation throughout. <br>Only one unit was produced a day on a made-to-order basis. That indicates how special these amplifiers were.",
+      "responses": [
+        {
+          "id": "Ireland",
+          "message": "This is the most excelent design."
+        },
+        {
+          "id": "Sweden",
+          "message": "This old one is still going strong. <br>I want the new one immediately. I’m in LOVE!"
+        },
+        {
+          "id": "Hungary",
+          "message": "This is my dream!"
+        }
+      ],
+      "link": ""
+    },
+    {
+      "id": "SL1200",
+      "year": "1979",
+      "indexCopy": "Evolving as a “Musical Instrument”",
+      "detailLead": "SL-1200 Series Turntable",
+      "detailBody": "The world-renowned SL-1200 Series maintained its original design for 35 years and enjoyed high popularity. Its turning point came when the SL1200 MK2 was introduced, because this model was developed with DJ use in mind.<br>Technics engineers went to the clubs where the first-generation SL-1200 units were used and listened to the requests of DJs, and then made bold modifications. Technics used a base structure featuring aluminium die cast and vibration-isolating heavy rubber to minimise the effect of vibrations caused by very loud sound as well as a slide-type continuous-pitch quartz-locked controller to maintain the operating feel of the first-generation SL-1200, and made improvements that would allow DJs to concentrate more on playing music. These efforts contributed greatly to the DJ culture. During 35 years after its introduction, some 3.5 million units of the SL-1200 Series were sold. There are still many avid fans of this historic product series.",
+      "responses": [
+        {
+          "id": "Belgium",
+          "message": "The nice thing about SL-1200 is that it sells to audio purists, <br>vinyl aficionados and music lovers as well as <br>to audio professionals and DJ’s."
+        },
+        {
+          "message": "Everybody wants the SL-1200 series back!"
+        },
+        {
+          "message": "This is the turntable everyone around the whole word wants. "
+        }
+      ],
+      "link": ""
+    },
+    {
+      "id": "SL-10",
+      "year": "1979",
+      "indexCopy": "Jacket-size Turntable<br>That Defied Conventional Ideas",
+      "detailLead": "SL-10 Turntable, on Permanent <br>Exhibit at the MoMA",
+      "detailBody": "The technical manager for Technics products came up with the idea of creating a turntable with LP record jacket size when he was on a business trip to Europe. That was the beginning of the SL-10. He sent rough stretches to the development team in Japan, and instructed them to work on it before he returned to Japan. The members of the development team shunned the idea of using a then-mainstream swing-arm system for the development of this jacket-size record player, and worked enthusiastically on developing a linear-tracking arm that stayed perfectly parallel to the direction of the stylus to achieve high function and functional beauty. They also developed the T4P stylus cartridge based on original specifications to suit the jacket-size turntable. The Technics SL-10 eventually went on permanent exhibit at the Museum of Modern Art (MoMA) in New York, and also received many awards and prizes, including Japan’s Good Design Award.",
+      "responses": [
+        {
+          "id": "USA",
+          "message": "I have this legendary Technics SL10. <br>After 35 years, it still plays well and looks awesome. <br>This is one of the best turntables in the world."
+        },
+        {
+          "id": "Germany",
+          "message": "Bring it back! And, bring a brand new direct drive turntable <br>for high-end fans!"
+        },
+        {
+          "id": "USA",
+          "message": "This is great as well as SL-J2 and SL-6!"
+        },
+        {
+          "message": "The most beautiful and the best audio technology in the world."
+        }
+      ],
+      "link": ""
+    },
+    {
+      "id": "SL-P10",
+      "year": "1982",
+      "indexCopy": "A Forerunner of the Digital Age",
+      "detailLead": "Technics’ First CD Player, <br>the SL-P10",
+      "detailBody": "In pursuit of the ultimate in enjoyment for digital music sources, Technics launched the development of a CD player by drawing on its comprehensive technological capability. Technics’ first CD player, the SL-P10, employed newly developed LSI and IC circuitry to handle practically all of the functions that had previously been performed by dedicated circuits. In addition to the new optical deck unit developed to achieve high sound quality, it boasted revolutionary ease of operation by incorporating a multifunctional FL display and random access program.<br>Developed in pursuit of the highest levels of sound quality and operating ease, the SL-P10 later became a reference optical disc player in the consumer audio product market.",
+      "responses": [
+        {
+          "id": "USA",
+          "message": "Technics’ products with great innovations had a 10 in <br>the model number designation."
+        },
+        {
+          "id": "Switzerland",
+          "message": "SL-P10 was my first CD player. In the whole summer vacation of one year, I worked so hard to buy it."
+        },
+        {
+          "message": "I still have this unit. An amazing design. A great product."
+        }
+      ],
+      "link": ""
+    },
+    {
+      "id": "SB-RX50",
+      "year": "1986",
+      "indexCopy": "Aiming for the One Point<br>Sound Source Concept",
+      "detailLead": "Development of the Flat <br>Coaxial Speaker",
+      "detailBody": "Technics created a flat coaxial speaker system, the RX Series, further evolving the linear-phase speaker technology of the Technics 7. The most significant feature of the flat coaxial speaker was its excellent audio image localisation. The sound centres from all individual speaker units were aligned not only in the horizontal and vertical directions but also in the front-to-back direction. This unified the directional characteristics in all speaker directions, and eliminated phase disturbance caused by positional deviations among speaker units. Thus, the flat coaxial speaker was capable of reproducing spatial and temporal information contained in the input source. <br>This “one point sound source” concept has been passed down to the current SB-R1 and SB-C700 models",
+      "responses": [
+        {
+          "message": "SB-RX50 looks pretty with wood material."
+        },
+        {
+          "id": "UK",
+          "message": "This old school speaker looks great. It seemed to get <br>old in a good way."
+        }
+      ],
+      "link": ""
+    },
+    {
+      "id": "SST-1",
+      "year": "1988",
+      "indexCopy": "Sound Space Speakers <br>Become an Art Form",
+      "detailLead": "SST-1 Selected for the MoMA <br>Design Collection",
+      "detailBody": "The SST-1 presented a functional and sculptural form and delivered rich, full-bodied Hi-Fi sound. With the twin-load horn speaker unit and brilliant throat featuring a new and original acoustic technology, it achieved lustrous sound quality and low-distortion, dynamic bass.<br>In March 1990, the SST-1 received the honour of being selected for the design collection of the Museum of Modern Art (MoMA) in New York for its revolutionary design. The MoMA Design Collection was established in 1934, and more than 3,000 objects have since been collected. MoMA regarded the SST-1’s high quality and its significance in the history of audio worthy of its collection.",
+      "responses": [
+        {
+          "id": "Japan",
+          "message": "This is the one I really wanted."
+        }
+      ],
+      "link": ""
+    },
+    {
+      "id": "AFP1000",
+      "year": "1988",
+      "indexCopy": "Vienna State Opera House and<br>Technics Sound",
+      "detailLead": "Audio Flat Panel, AFP1000",
+      "detailBody": "Some 80 prototypes and extensive computer simulations combined to examine the ideal sound field from various angles in the development of the AFP system, which featured innovative “twin cabinets” that defied previous audio concepts. <br>The first Audio Flat Panel AFP1000 was delivered to the world renowned Vienna State Opera House for use in playing the performances of singers and orchestras during rehearsals. Technics’ advanced technologies satisfied the world’s leading virtuoso performers.",
+      "responses": [
+        {
+          "id": "Finland",
+          "message": "Back to future! Super sound like God’s sound!"
+        },
+        {
+          "id": "Ukraine",
+          "message": "One of the Matsushita’s legendary products."
+        }
+      ],
+      "link": ""
+    },
+    {
+      "id": "SE-A7000",
+      "year": "1992",
+      "indexCopy": "Even Note Rests Are<br>Beautifully Reproduced",
+      "detailLead": "Technics Silence Technology",
+      "detailBody": "Technics continued to challenge the creation of new audio components for a new era, and introduced the G Series featuring Silence Technology. Silence Technology represented Technics’ efforts to faithfully reproduce not only musical tones but also note rests. With Silence Technology, Technics aimed to deliver everything from the place where the music was played, including “note rests” imbued with the intention of composers, subtle shifts in the performers’ emotional expression, and the ambience of the hall filled with the audience’s enthusiasm. <br>The colour scheme of the product was also changed from black to Champagne Gold to suggest a higher grade of sound.",
+      "responses": [
+        {
+          "message": "This is one of the Techinics’ advanced amplifiers. I loved its amazing warm sound with rich high and low, deep bass. "
+        },
+        {
+          "id": "UK",
+          "message": "Still got mine. It is good as the day I bought it in 1991. <br>Huge amount of listening hours on it too!"
+        },
+        {
+          "message": "This was one of the best amplifiersTechnics ever made <br>and probably ever will make."
+        },
+        {
+          "message": "Wonderful preamplifier. I have this unit in my collection <br>of vintage Technics products."
+        }
+      ],
+      "link": ""
+    },
+    {
+      "id": "DVD-A10",
+      "year": "2000",
+      "indexCopy": "The Origin of High-Resolution Audio",
+      "detailLead": "The World’s First <br>DVD-Audio Player",
+      "detailBody": "Sixteen years after the birth of the CD, DVD-Audio became a new standard for the audio world. DVD-Audio, which contains more information than a CD, is said to be the origin of today’s high-resolution audio. <br>The DVD-A10, the world’s first DVD-Audio player, was developed to achieve the highest audio quality in every aspect. It features a noise-shaping, 192-kHz, 24-bit audio D/A converter, R-core transformer, TA-KE II capacitor and extra-heavy, anti-vibration hybrid construction base. The technology for reproducing high-resolution sound sources with extremely high quality was accumulated from the age of DVD-Audio.",
+      "responses": [
+        {
+          "id": "USA",
+          "message": "The sound was quite impressive. "
+        },
+        {
+          "message": "This is the masterpiece! Go, Tecnics, go!"
+        },
+        {
+          "message": "It is a great DVD player! I have two of DVD-A10. The one is still new in the box and  will almost follow me to the grave."
+        }
+      ],
+      "link": ""
+    },
+    {
+      "id": "R1",
+      "year": "2014",
+      "generation": "2000s",
+      "indexCopy": "Rediscover Music",
+      "detailLead": "Technics Reborn",
+      "detailBody": "While compressed audio sources, such as the MP3 format, were emerging, the mission of conveying emotions through music seemed somewhat less important. As a result, the Technics brand entered a hiatus, from which it reappeared in 2014.<br>The new Technics philosophy is “Rediscover Music”. This embraces the Technics desire to continue providing an emotional musical experience to all those who truly love music, and to contribute to further development of the global music culture.",
+      "responses": [],
+      "link": ""
+    }
+  ],
+  "future": {
+    "scene1": "Since its birth, Technics has been committed to <br />“delivering the profound passions of musicians and providing <br />the ultimate musical experience to listeners”.<br />Technics has consistently challenged the limits, driven by <br />inquisitive minds that chose not to rely on the conventional.<br />Its mission was to contribute to global music culture by <br />manufacturing superlative audio products.<br />Technics will continue to move forward together <br />with music lovers.",
+    "scene2": "REDISCOVER MUSIC",
+    "scene3": {
+      "facebook": "Follow Us on Facebook",
+      "twitter": "Follow Us on Twitter"
+    }
+  },
+  "shareTwitter": "Technics 50th Anniversary - 50 years of Technics history, together with music lovers.",
+  "legal": "legal",
+  "share": "share",
+  "privacyPolicy": "Privacy Policy",
+  "privacyPolicyLink": "/global/privacy.html",
+  "termsOfUse": "Terms Of Use",
+  "termsOfUseLink": "/global/terms.html",
+  "cookiePolicy": "Cookies Policy",
+  "cookiePolicyLink": "/global/cookie.html",
+  "contactUs": "",
+  "contactUsLink": "",
+  "byYear": "By Year",
+  "byGeneration": "By Generation",
+  "rediscover": "rediscover",
+  "story": "story",
+  "voicesTitle": "FANS’ RESPONSES",
+  "voiceNoCountry": "Country Unspecified",
+  "skip": "skip",
+  "scroll": "scroll",
+  "scrollTo": "SCROLL TO %year%",
+  "scrollToFuture": "Message from Technics",
+  "back": "Back",
+  "prev": "PREV",
+  "next": "NEXT",
+  "close": "Close",
+  "goBackToBeginning": "GO BACK TO BEGINNING",
+  "cookiesText": "Our website uses cookies and similar tools to improve its performance and enhance your user experience and by continuing to use this website without changing your settings, you consent to their use. <br>To find out more about the cookies we use or how to change your settings, please <a href=\"/global/cookie.html\" target=\"_blank\">see our Cookies Policy</a>.",
+  "cookiesTitle": "USE OF COOKIES",
+  "cookiesBtnContinue": "Continue",
+  "technicsComLink": "/global/"
+}
+

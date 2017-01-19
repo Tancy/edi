@@ -1,0 +1,360 @@
+
+<!DOCTYPE html>
+<html class="fix" lang="en">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <meta charset="utf-8" />
+    <title>Technics 50th Anniversary</title>
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width" name="viewport" />
+    <link href="/common-technics/images/favicon.ico" rel="shortcut icon" />
+    <meta content="50 years of Technics history, together with music lovers." name="description" />
+    <meta content="website" property="og:type" />
+    <meta content="http://www.technics.com/global/50th-anniversary/" property="og:url" />
+    <meta content="Technics 50th Anniversary" property="og:title" />
+    <meta content="50 years of Technics history, together with music lovers." property="og:description" />
+    <meta content="http://www.technics.com/global/50th-anniversary/assets/images/common/ogp.png" property="og:image" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" /><script src="assets/js/switch.js" type="text/javascript"></script>
+    <!-- Google Tag Manager -->
+       <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MMCRSV"
+       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script type="text/javascript">
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-MMCRSV');
+    </script>
+    <!-- End Google Tag Manager --> 
+  </head>
+  <body class="lang-global">
+    <header id="header">
+      <div class="bg"></div>
+      <h1 id="header-logo">
+        <a href="/global/" target="_blank"><img alt="Rediscover music / Technics" class="logo logo-white" src="./assets/images/common/logo-white.svg" /><img alt="Rediscover music / Technics" class="logo logo-gray" src="./assets/images/common/logo-gray.svg" /></a>
+      </h1>
+      <div id="btn-back">
+        <img class="icon" src="assets/images/common/arrow-back.svg" />
+      </div>
+      <div class="is-on animating" id="sound">
+        <div class="icon">
+          <img class="sound-btn-on default" src="./assets/images/common/volume-on.svg" /><img class="sound-btn-on hover" src="./assets/images/common/volume-on-hover.svg" /><img class="sound-btn-off default" src="./assets/images/common/volume-off.svg" /><img class="sound-btn-off hover" src="./assets/images/common/volume-off-hover.svg" />
+        </div>
+        Sound
+      </div>
+    </header>
+    <div id="loading">
+      <div class="loading-panel">
+        <div class="plane plane3"></div>
+        <div class="plane plane2"></div>
+        <div class="plane plane1">
+          <div class="label">
+            loading
+          </div>
+        </div>
+        <div class="plane plane0">
+          <div class="label">
+            loading
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/template" id="tpl-main">
+    <div id="intro">
+      <div id="intro-video"></div>
+      <div class="scroll-indication clickable">
+        <div class="label">
+          <%- skip %>
+        </div>
+      </div>
+    </div>
+    <div id="timeline">
+      <div id="view"></div>
+      <div id="CSS3Dview"></div>
+      <div class="scroll-indication timeline-first static">
+        <div class="label">
+          <%- scroll %>
+        </div>
+      </div>
+      <div id="future">
+        <div class="scene" id="future1">
+          <div class="message">
+            <div class="lead">
+              <%= future.scene1 %>
+            </div>
+          </div>
+          <div class="scroll-indication">
+            <div class="label">
+              <%- scroll %>
+            </div>
+          </div>
+        </div>
+        <div class="scene" id="future2">
+          <div class="message">
+            <div class="lead">
+              <%= future.scene2 %>
+            </div>
+          </div>
+          <div class="scroll-indication">
+            <div class="label">
+              <%- scroll %>
+            </div>
+          </div>
+        </div>
+        <div class="scene" id="future3">
+          <div class="message">
+            <ul class="future-links">
+              <% if (future.scene3.newsletter) { %>
+              <li>
+                <a href="javascript:void(0);" onclick="$$.popup('<%- future.scene3.newsletterLink %>','550','650')"><%- future.scene3.newsletter %></a>
+              </li>
+              <% } %>
+              <li>
+                <a href="<%- future.scene3.facebookLink %>" target="_blank"><%- future.scene3.facebook %></a>
+              </li>
+              <li>
+                <a href="<%- future.scene3.twitterLink %>" target="_blank"><%- future.scene3.twitter %></a>
+              </li>
+            </ul>
+          </div>
+          <div class="scroll-indication">
+            <div class="label">
+              <%- goBackToBeginning %>    
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="genmode-nav">
+        <ul id="flip-nav">
+          <li id="flip-prev">
+            <div class="line"></div>
+            <%- prev %>
+          </li>
+          <li id="flip-next">
+            <div class="line"></div>
+            <%- next %>
+          </li>
+        </ul>
+      </div>
+      <ul id="gen-nav"></ul>
+      <ul id="viewmode-nav">
+        <li class="current" id="by-year">
+          <div class="icon">
+            <img class="off" src="./assets/images/common/icon-year.svg" /><img class="on" src="./assets/images/common/icon-year-on.svg" />
+          </div>
+          <div class="label">
+            <%- byYear %>
+          </div>
+        </li>
+        <li id="by-gen">
+          <div class="icon">
+            <img class="off" src="./assets/images/common/icon-gen.svg" /><img class="on" src="./assets/images/common/icon-gen-on.svg" />
+          </div>
+          <div class="label">
+            <%- byGeneration %>
+          </div>
+        </li>
+      </ul>
+      <div id="timeline-era">
+        <div class="era-wrap" id="timeline-era-year"></div>
+        <div class="era-wrap hide" id="timeline-era-gen"></div>
+      </div>
+      <div id="timeline-footer">
+        <a class="country" href="<%- technicsComLink %>" target="_blank"><%- technicsCom %></a>
+        <ul class="glp" id="footbtns">
+          <li id="btn-legal">
+            <%- legal %>
+          </li>
+          <li id="btn-share">
+            <%- share %>
+          </li>
+        </ul>
+        <ul class="glp" id="btn-footclose">
+          <li>
+            <div class="icon-cross">
+              <div class="line1"></div>
+              <div class="line2"></div>
+            </div>
+            <%- close %>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="detail-view">
+      <div id="item-view"></div>
+      <div class="bg"></div>
+    </div>
+    <footer id="footinfo">
+      <div id="foot-legal">
+        <ul class="left">
+          <% if (privacyPolicy) { %>
+          <li>
+            <a href="<%- privacyPolicyLink %>" target="_blank"><%- privacyPolicy %></a>
+          </li>
+          <% } %><% if (termsOfUse) { %>
+          <li>
+            <a href="<%- termsOfUseLink %>" target="_blank"><%- termsOfUse %></a>
+          </li>
+          <% } %><% if (cookiePolicy) { %>
+          <li>
+            <a href="<%- cookiePolicyLink %>" target="_blank"><%- cookiePolicy %></a>
+          </li>
+          <% } %><% if (contactUs) { %>
+          <li>
+            <a href="<%- contactUsLink %>" target="_blank"><%- contactUs %></a>
+          </li>
+          <% } %>
+        </ul>
+        <div class="foot-copyright right">
+          Copyright © 2015 Panasonic Corporation
+        </div>
+      </div>
+      <div id="foot-share">
+        <ul class="right">
+          <li>
+            <a href="" id="share-facebook" target="_blank"><i class="fa fa-facebook"></i>Facebook</a>
+          </li>
+          <li>
+            <a href="" id="share-twitter" target="_blank"><i class="fa fa-twitter"></i>Twitter</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <div id="cookiepolicy">
+      <div class="panel">
+        <div class="title">
+          <%- cookiesTitle %>
+        </div>
+        <div class="message">
+          <%= cookiesText %>
+        </div>
+        <ul class="btn-grp">
+          <li class="continue">
+            <div class="label">
+              <%- cookiesBtnContinue %>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="scroll-indication clickable">
+        <div class="label">
+          <%- cookiesBtnContinue %>
+        </div>
+      </div>
+    </div>
+    <div id="nowebgl">
+      <div class="panel">
+        <div class="message">
+          It looks like your browser isn't able to display this experience.<br />Please update to the latest version.
+        </div>
+        <div class="browser chrome">
+          <div class="icon"></div>
+          <div class="name">
+            Chrome
+          </div>
+          <a class="download" href="https://www.google.com/chrome/browser/desktop/" target="_blank"></a>
+        </div>
+        <div class="browser firefox">
+          <div class="icon"></div>
+          <div class="name">
+            Firefox
+          </div>
+          <a class="download" href="https://www.mozilla.org/firefox/new/" target="_blank"></a>
+        </div>
+        <div class="browser safari">
+          <div class="icon"></div>
+          <div class="name">
+            Safari
+          </div>
+          <a class="download" href="https://support.apple.com/en-gb/HT204416" target="_blank"></a>
+        </div>
+        <div class="browser ie">
+          <div class="icon"></div>
+          <div class="name">
+            Internet Explorer
+          </div>
+          <a class="download" href="http://windows.microsoft.com/en-gb/internet-explorer/download-ie" target="_blank"></a>
+        </div>
+      </div>
+    </div></script>
+    <script type="text/template" id="tpl-detail">
+    <div class="detail-item" id="<%- id %>">
+      <div class="detail-mainimg">
+        <img alt="<%- id %>" src="./assets/images/<%- year %>_<%- id %>/main.png" />
+      </div>
+      <div class="detail-contents">
+        <div class="detail-main mod-inner">
+          <div class="detail-main-texts">
+            <div class="detail-year <%= yearClass %>">
+              <% _.each(year, function(text) { %><% if (text == ' ') { %> <span><%- text %></span><% } else { %><span class="d"><%- text %></span><% } %><% }); %>
+            </div>
+            <div class="line d"></div>
+            <div class="detail-lead">
+              <% _.each(detailLead, function(text) { %><% if (text == ' ') { %> <span><%- text %></span><% } else if (text == '~') { %> <br /><% } else { %><span class="d"><%- text %></span><% } %><% }); %>
+            </div>
+          </div>
+        </div>
+        <div class="detail-body">
+          <div class="detail-scroll-indication">
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="center"></div>
+          </div>
+          <div class="mod-inner">
+            <div class="body-title body-title-story">
+              <%- globalData.story %>
+            </div>
+            <div class="detail-body-text">
+              <div class="unit detail-body-text1">
+                <%= detailBody %>
+              </div>
+              <div class="unit detail-body-text2">
+                <%= detailBody %>
+              </div>
+            </div>
+            <div class="body-img">
+              <img class="img1" src="./assets/images/<%- year %>_<%- id %>/img01.png" /><img class="img2" src="./assets/images/<%- year %>_<%- id %>/img02.png" />
+            </div>
+            <% if (responses.length > 0) { %>
+            <div class="body-title body-title-responses">
+              <%- globalData.voicesTitle %>
+            </div>
+            <div class="responses">
+              <% _.each(responses, function(response) { %>
+              <div class="response">
+                <div class="response-message">
+                  <%= response.message %>
+                </div>
+                <div class="response-author">
+                  <div class="line"></div>
+                  <%- response.id || globalData.voiceNoCountry %>
+                </div>
+              </div>
+              <% }) %>
+            </div>
+            <% } else {%>
+            <div class="no-responses"></div>
+            <% } %><% if (link) { %>
+            <div class="body-foot">
+              <a class="btn findoutmore" href="<%- link %>" target="_blank">Find out more</a>
+            </div>
+            <% } %>
+          </div>
+          <% if (nextScene) { %> 
+          <div class="next-item">
+            <img src="./assets/images/<%- nextScene.year %>_<%- nextScene.id %>/main.png" />
+            <div class="next-year">
+              <%- scrollTo %>
+            </div>
+          </div>
+          <% } else {%>
+          <div class="next-item to-future">
+            <div class="next-year">
+              <%- globalData.scrollToFuture %>
+            </div>
+          </div>
+          <% } %>
+        </div>
+      </div>
+    </div></script>
+  </body>
+</html>

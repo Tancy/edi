@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>- 这是爸爸送你的礼物!</title>
+    <link href="logo/logo.png" rel="apple-touch-icon-precomposed">
+    <link href="logo/logo.png" rel="Shortcut Icon" type="image/x-icon"/>
+    <link rel="icon" href="logo/logo.png" type="image/png">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <style>
+
+        * {
+            -webkit-box-sizing: border-box;
+        }
+        /*@font-face {*/
+            /*font-family:'PingHei';*/
+            /*font-style:normal;*/
+            /*font-weight:200;*/
+            /*src:local('☺︎'), url("PingHei-light.woff") format("woff"), url("PingHei-light.ttf") format("truetype");*/
+            /*/!* Copyright (c) 2000-2008, Changzhou SinoType Technology Co., Ltd.  All rights reserved. *!/*/
+        /*}*/
+
+        /*@font-face {*/
+            /*font-family:'PingHei 200';*/
+            /*src:url("http://www.apple.com/wss/fonts/PingHei/v1/PingHei-light.eot");*/
+            /*/!* Copyright (c) 2000-2008, Changzhou SinoType Technology Co., Ltd.  All rights reserved. *!/*/
+        /*}*/
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        body {
+            font-family:"PingHei","PingFang SC","STHeitiSC-Light","Helvetica Neue","Helvetica","Arial",sans-serif;
+            background: white;
+            margin: 0;
+            color: #33333d;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            font-weight: lighter;
+        }
+        .txt{
+            margin: 10px 0;
+        }
+        a {
+            color: #33a0c0;
+        }
+
+        section {
+            min-height: 50%;
+        }
+
+        section:not(:last-child) {
+            border-bottom: 1px solid #eee;
+        }
+
+        section:not(#top) {
+            padding: 150px 100px;
+            text-align: center;
+        }
+
+        pre {
+            background: white;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            padding: 25px;
+            font-size: .9em;
+            font-family: monospace;
+            overflow-x: auto;
+        }
+
+        .content img {
+            max-width: 480px;
+            width: 100%;
+
+        }
+        .content video{
+            max-width: 480px;
+            width: 100%;
+        }
+        .content div{
+            font-size: 16px;
+            line-height: 150%;
+        }
+        p {
+            font-weight: 300;
+            font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        }
+
+        code {
+            font-family: monospace;
+            font-size: .9em;
+        }
+
+        h1 {
+            margin-top: 0;
+            font-size: 2em;
+        }
+
+        h1:not(:first-child) {
+            margin-top: 50px;
+        }
+
+        h2 {
+            margin-top: 80px;
+            font-size: 1.2em;
+        }
+
+        h3 {
+            margin-top: 40px;
+            font-size: 1em;
+        }
+
+        ul li {
+            font-size: .8em;
+        }
+
+        section:nth-child(2n) {
+            background: #fdfdfd;
+            box-shadow: inset 0 1px 0 0 white;
+        }
+
+        .content {
+            margin: 0 auto;
+            max-width: 750px;
+            text-align: left;
+        }
+        .day,.com{
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-size: 12px;
+            color: #333;
+            background: #fdfdfd;
+        }
+        #top {
+            height: 100%;
+            background-image: url(https://gw.alicdn.com/tps/TB1AMNdJFXXXXbQXFXXXXXXXXXX-1620-1080.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        #heading {
+            -webkit-user-select: none;
+            position: absolute;
+            top: 50%;
+            margin-top: -150px;
+            text-align: left;
+            width: 100%;
+            padding-left: 40px;
+        }
+
+        #logo {
+            font: 150px 'Italiana', sans-serif;
+            text-transform: lowercase;
+        }
+
+        #tagline {
+            font-size: 16px;
+            padding-left: 30px;
+        }
+
+        #menu {
+            position: fixed;
+            top: 35px;
+            right: 30px;
+            z-index: 50;
+        }
+
+        #menu:hover ul {
+            display: block;
+        }
+
+        #menu a {
+            color: inherit;
+        }
+
+        #menu a#toggle {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 5px;
+            background: rgba(255,255,255,.9);
+            border-radius: 2px;
+            border: 1px solid transparent;
+            z-index: 5;
+        }
+
+        #menu:hover a#toggle {
+            border: 1px solid #efefef;
+            border-bottom: none;
+        }
+
+        #menu ul {
+            display: none;
+            position: absolute;
+            top: 35px;
+            right: 0;
+            margin: 0;
+            border: 1px solid #efefef;
+            border-bottom: 1px solid #ddd;
+            border-radius: 2px;
+            padding: 25px;
+            background: rgba(255,255,255,.95);
+            box-shadow: 0 1px 3px 0 #eee;
+        }
+
+        #menu ul li {
+            list-style: none;
+        }
+
+        #menu ul li a {
+            display: block;
+            text-decoration: none;
+            padding: 3px 0;
+        }
+
+        #menu ul li a:hover {
+            text-decoration: underline;
+        }
+
+        @media screen and (max-width: 700px) {
+            section:not(#top) {
+                padding: 50px 25px;
+            }
+
+            #heading {
+                top: 20px;
+                margin-top: 0;
+                text-align: center;
+                width: 100%;
+                padding-left: 0;
+            }
+
+            #logo {
+                font-size: 75px;
+            }
+
+            #tagline {
+                font-size: 12px;
+                padding-left: 0;
+            }
+        }
+
+        @media screen and (max-width: 500px) {
+            body {
+                font-size: 13px;
+            }
+        }
+
+        @media only screen
+        and (min-device-width : 768px)
+        and (max-device-width : 1024px)  {
+            #heading {
+                top: 20px;
+                margin-top: 0;
+                text-align: center;
+                margin-left: 0
+            }
+            #tagline{
+                padding-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<section id="top">
+    <img src="https://gw.alicdn.com/tps/TB1AMNdJFXXXXbQXFXXXXXXXXXX-1620-1080.jpg" style="display: none" alt="">
+    <div id="heading">
+        <div id="logo">Edi</div>
+        <div id="tagline">这是爸爸送给你的一份礼物! </div>
+    </div>
+</section>
+
+<section>
+    <div class="content">
+        <h1>期待</h1>
+        <p>
+            <div class="txt">自从知道有了你,我和你妈妈就一直想象你长的是丑还是美,是男孩还是女孩,期待着早日能见到你.这是我们第一看到你的样子（隔着妈妈的肚皮）.当时你非常的含羞一个早上都背对着我们,不肯把脸转过来.这是唯一抓拍的瞬间.</div>
+            <img src="http://gw.alicdn.com/tps/TB1SxtXJFXXXXcZXFXXXXXXXXXX-800-600.jpg"/>
+        </p>
+    </div>
+</section>
+<section>
+    <div class="content">
+        <h1>初面</h1>
+        <p>
+            <div class="txt">edi和爸爸的第一次见面:虽然你看不清爸爸的样子,但是爸爸叫着edi,你还是能感受到爸爸的存在,会东张西望.爸爸还都没来得及抱抱你的时候,护士阿姨就让我带你去打疫苗,这是你第一次嚎啕大哭...</div>
+            <video width="480" x-webkit-airplay="allow"
+                   controls  preload="none"
+                   poster="http://gw.alicdn.com/tps/TB1SFtmJFXXXXaDXpXXXXXXXXXX-480-480.jpg"
+                   src="http://pl.youku.com/playlist/m3u8?vid=334274817&type=flv&ts=1442381965&keyframe=0&ep=eiaQGEqFV8cG4CffgD8bZy%2B2d3QMXP0J8h2ChdpjB9QsS%2BC4&sid=84423819654081203d333&token=8387&ctype=12&ev=1&oip=712526433">
+            </video>
+        </p>
+    </div>
+</section>
+<section>
+    <div class="content">
+        <h1>表情帝</h1>
+        <p>
+            <div class="txt">从小就是表情帝,第一次妈妈自己动手给你剪头发,你就是这个表情.</div>
+            <img src="http://gw.alicdn.com/tps/TB1P7A3JpXXXXXiaXXXXXXXXXXX-1048-1048.jpg"/>
+            <div class="txt">今天和糖糖妹妹一起玩耍,很开心是吧,满足你的表现欲!</div>
+            <img src="http://gw.alicdn.com/tps/TB1QNZ6JpXXXXbKXVXXXXXXXXXX-1526-1114.jpg"/>
+            <img src="http://gw.alicdn.com/tps/TB1ZpU.JpXXXXXDXVXXXXXXXXXX-1520-1072.jpg"/>
+            <div class="txt">第一次觉得你上桌吃饭是这么开心的一件事情,今天你给爸爸表演了超级棒的表情秀.也突然让我觉得你已经开始懂事了.会和我们表达需求了.</div>
+            <img src="http://gw.alicdn.com/tps/TB12StlJFXXXXayXpXXXXXXXXXX-1524-1114.jpg"/>
+            <div class="txt">给你尝各种你原先没尝过的味道,你也用各种表情回复我们.</div>
+            <img src="http://gw.alicdn.com/tps/TB10c8vJFXXXXaJXXXXXXXXXXXX-1522-1102.jpg"/>
+            <div class="txt">小小指挥员,每当你拿起遥控器,就是对着我们各种按.</div>
+            <img src="http://gw.alicdn.com/tps/TB1WMM7JpXXXXbvXVXXXXXXXXXX-1526-1076.jpg"/>
+            <div class="txt">不知道为啥,你今天穿上妈妈新买的这套衣服后,你特别的开心,爸爸给你拍照,你也超级配合,出片效果超级棒.</div>
+            <img src="http://gw.alicdn.com/tps/TB1bvNpJFXXXXc.XXXXXXXXXXXX-1524-1066.jpg"/>
+        </p>
+    </div>
+</section>
+</section>
+<section>
+    <div class="content">
+        <h1>傻乐</h1>
+        <p>
+            <div class="txt">第一次学会给爸爸喂食.父女俩傻乐成这样.</div>
+            <img src="http://gw.alicdn.com/tps/TB1zUlmJFXXXXabXpXXXXXXXXXX-1048-786.jpg"/>
+        </p>
+    </div>
+</section>
+<section>
+    <div class="content">
+        <h1>学走路</h1>
+        <p>
+            <div class="txt">自从你的小腿有点力量后,你就经常要我们拉着你走.</div>
+            <video width="480" x-webkit-airplay="allow"
+                   controls  preload="none"
+                   poster="http://gw.alicdn.com/tps/TB12534JpXXXXcXXVXXXXXXXXXX-1280-720.jpg"
+                   src="http://pl.youku.com/playlist/m3u8?vid=334268479&amp;type=flv&amp;ts=1442380148&amp;keyframe=0&amp;ep=cCaQGEqFVs8E7SPfiz8bYyrkJXQJXP0J8h2DidZlCdQlT%2Bu3&amp;sid=244238014800312466a36&amp;token=1738&amp;ctype=12&amp;ev=1&amp;oip=712526433">
+            </video>
+
+        </p>
+    </div>
+</section>
+
+<section>
+    <div class="content">
+        <h1>叫爸爸</h1>
+        <p>
+            <div class="txt">哈哈,这是你有意识的叫我爸爸哦.总于改掉了『妈妈』这个口头禅了.</div>
+            <video width="480" x-webkit-airplay="allow"
+                   controls  preload="none" loop="true"
+                   poster="http://gw.alicdn.com/tps/TB1AQprJFXXXXbVXXXXXXXXXXXX-1920-1080.jpg"
+                   src="http://pl.youku.com/playlist/m3u8?vid=334268427&type=flv&ts=1442380937&keyframe=0&ep=cCaQGEqFVscD4iHWgT8bbiXhcHReXP0J8h2DidZgB9QlTe62&sid=24423809372991299343a&token=1569&ctype=12&ev=1&oip=712526433">
+            </video>
+        </p>
+    </div>
+</section>
+<section>
+    <div class="content"><h1>快乐成长</h1>
+        <p>
+            <div class="txt">祝小edi生日快乐,永远快快乐乐成长...</div>
+            <img src="http://gw.alicdn.com/tps/TB174hkJFXXXXbAXpXXXXXXXXXX-800-1200.jpg"/>
+        </p>
+    </div>
+</section>
+
+<div class="day">2014.09.16.18:15</div>
+<div class="com">edi916.com</div>
+<div style="display: none">
+    <script>
+        document.addEventListener('DOMContentLoaded', function (e) {
+            document.getElementById('cnzz').setAttribute('src','//s11.cnzz.com/z_stat.php?id=1256361778&web_id=1256361778')
+        }, false);
+    </script>
+    <script id="cnzz"  language="JavaScript"></script>
+</div>
+</body>
+</html>

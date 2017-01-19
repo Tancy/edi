@@ -1,0 +1,543 @@
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3057950, 2015-07-14T02:12:28-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: DINCondensed-Regular by ParaType
+ * URL: http://www.myfonts.com/fonts/paratype/din-condensed/pt-din-condensed/
+ * Copyright: Copyright &#x00A9; 1998 ParaType Inc., ParaType Ltd. All rights reserved.
+ * Licensed pageviews: 100,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3057950
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2ea91e");
+
+/* ----- MyFonts ----- */
+@font-face {
+    font-family: 'DINCondensed-Regular';
+    src: url('../font/2EA91E_0_0.eot');
+    src: url('../font/2EA91E_0_0.eot?#iefix') format('embedded-opentype'),
+         url('../font/2EA91E_0_0.woff2') format('woff2'),
+         url('../font/2EA91E_0_0.woff') format('woff'),
+         url('../font/2EA91E_0_0.ttf') format('truetype');
+}
+/* ----- / MyFonts ----- */
+
+
+@font-face {
+    font-family: 'DIN Regular';
+    src: url('../font/DINWebPro.eot');
+    src: url('../font/DINWebPro.eot?#iefix') format('embedded-opentype'),
+         url('../font/DINWebPro.woff') format('woff'),
+         url('../font/DINCompPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Light';
+    src: url('../font/DINWebPro-Light.eot');
+    src: url('../font/DINWebPro-Light.eot?#iefix') format('embedded-opentype'),
+         url('../font/DINWebPro-Light.woff') format('woff'),
+         url('../font/DINCompPro-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Medium';
+    src: url('../font/DINCompPro-Medium.eot');
+    src: url('../font/DINCompPro-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../font/DINWebPro-Medium.woff') format('woff'),
+         url('../font/DINCompPro-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+	font-family:'HanHei SC';
+	font-style:normal;
+	font-weight:300;
+	src:local('☺︎'), url("../font/HanHei-SC-thin.woff") format("woff"), url("../font/HanHei-SC-thin.ttf") format("truetype");
+	/* Copyright © 2015 Apple Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'HanHei SC 300';
+	src:url("../font/HanHei-SC-thin.eot");
+	/* Copyright © 2015 Apple Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'HanHei SC';
+	font-style:normal;
+	font-weight:600;
+	src:local('☺︎'), url("../font/HanHei-SC-semibold.woff") format("woff"), url("../font/HanHei-SC-semibold.ttf") format("truetype");
+	/* Copyright © 2015 Apple Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'HanHei SC 600';
+	src:url("../font/HanHei-SC-semibold.eot");
+	/* Copyright © 2015 Apple Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'HanHei SC';
+	font-style:normal;
+	font-weight:400;
+	src:url("../font/HanHei-SC-text.eot");
+	src:local('☺︎'), url("../font/HanHei-SC-text.woff") format("woff"), url("../font/HanHei-SC-text.ttf") format("truetype");
+	/* Copyright © 2015 Apple Inc. All rights reserved. */
+}
+
+
+
+
+
+
+
+
+/* ************************************************************
+    common
+************************************************************ */
+
+html {
+    /*position: fixed;*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*overflow: hidden;*/
+    background: #EB4A52;
+}
+
+body {
+    /*position: fixed;*/
+    width: 100%;
+    height: 100%;
+    /*overflow: hidden;*/
+    background: #EB4A52;
+    font-family: 'DIN Regular', sans-serif;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+/* ************************************************************
+    loading
+************************************************************ */
+
+#loading-wrap {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #EB4A52;
+    z-index: 102;
+}
+
+#loading-cont {
+    position: absolute;
+    width: 139px;
+    /*height: 129px;*/
+    height: 105px;
+    left: 50%;
+    top: 50%;
+    margin-left: -70px;
+    /*margin-top: -65px;*/
+    margin-top: -53px;
+    font-size: 12px;
+    text-align: center;
+    color: #666;
+    overflow: hidden;
+}
+
+#loading-img {
+    position: absolute;
+    width: 139px;
+    height: 3150px;
+    left: 0;
+    top: 0;
+    -webkit-animation:loading-motion 0.5s steps(29) infinite;
+       -moz-animation:loading-motion 0.5s steps(29) infinite;
+        -ms-animation:loading-motion 0.5s steps(29) infinite;
+         -o-animation:loading-motion 0.5s steps(29) infinite;
+            animation:loading-motion 0.5s steps(29) infinite;
+}
+
+@-webkit-keyframes loading-motion {
+    0% {-webkit-transform:translateY(0);}
+    100% {-webkit-transform:translateY(-3045px);}
+}
+
+@-moz-keyframes loading-motion {
+    0% {-moz-transform:translateY(0);}
+    100% {-moz-transform:translateY(-3045px);}
+}
+
+@-ms-keyframes loading-motion {
+    0% {-ms-transform:translateY(0);}
+    100% {-ms-transform:translateY(-3045px);}
+}
+
+@-o-keyframes loading-motion {
+    0% {-o-transform:translateY(0);}
+    100% {-o-transform:translateY(-3045px);}
+}
+
+@keyframes loading-motion {
+    0% {transform:translateY(0);}
+    100% {transform:translateY(-3045px);}
+}
+
+#loading {
+    position: absolute;
+    width: 139px;
+    height: 65px;
+    left: 2px;
+    /*top: 66px;*/
+    top: 52px;
+
+    font-family: 'DINCondensed-Regular', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    line-height: 1;
+    text-align: center;
+    color: #fff;
+}
+
+
+/* ************************************************************
+    global-header
+************************************************************ */
+
+.gheader {
+    position: fixed;
+    width: 100%;
+    height: 52px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.gheader .logo {
+    position: absolute;
+    left: 25px;
+    top: 17px;
+    line-height: 0;
+}
+
+.gheader .btn-menu {
+    position: absolute;
+    right: 18px;
+    top: 12px;
+    /*font-size: 9px;*/
+    font-size: 11px;
+    line-height: 36px;
+    /*letter-spacing: 0.2em;*/
+    letter-spacing: 0.08em;
+    /*color: #999;*/
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.gheader .btn-menu span {
+    margin-right: 3px;
+    -webkit-transition  : 1.0s;
+            transition  : 1.0s;
+}
+
+.gheader .btn-menu use {
+    -webkit-transition  : 1.0s;
+            transition  : 1.0s;
+}
+
+
+/* ************************************************************
+    side-menu
+************************************************************ */
+
+.body-overlay {
+    position: fixed;
+    width: 100%;
+    height: 150%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.6);
+    display: none;
+    z-index: 2;
+}
+
+.side-menu-wrap {
+    position: fixed;
+    width: 100%;
+    max-width: 315px;
+    height: 100%;
+    right: -375px;
+    top: 0;
+    margin-left: 60px;
+    font-size: 14px;
+/*    -webkit-transition  : -webkit-transform 0.3s ease-out;
+            transition  :         transform 0.3s ease-out;*/
+    z-index: 3;
+}
+
+.side-menu-bg {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: 100%;
+    background: #181818;
+}
+
+.side-menu {
+    position: absolute;
+    /*left: 0;*/
+    /*top: 0;*/
+
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: #5378D2;
+    /*overflow: hidden;*/
+
+/*
+    -webkit-transform: translateX(0);
+       -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+         -o-transform: translateX(0);
+            transform: translateX(0);*/
+}
+
+.side-menu .side-menu-cont {
+    position: relative;
+    height: 100%;
+    padding-bottom: 49px;
+    /*overflow: auto;*/
+    -webkit-overflow-scrolling: touch;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+.side-menu-wrap .btn-close {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: -48px;
+    top: 12px;
+    cursor: pointer;
+}
+
+.side-menu .generations li {
+    position: relative;
+    height: 59px;
+    padding-left: 28px;
+    line-height: 60px;
+    /*letter-spacing: 0.25em;*/
+    letter-spacing: 0.08em;
+    cursor: pointer;
+    border-bottom: 1px #222 solid;
+}
+
+/*.side-menu .generations li.generation {
+    letter-spacing: 0.08em;
+}*/
+
+.side-menu .generations li:last-child:after {
+    border-bottom: 0;
+}
+
+.side-menu .generations {
+    border-bottom: 1px #2d2d2d solid;
+}
+
+.side-menu-btn {
+    height: 48px;
+    padding-left: 28px;
+    line-height: 48px;
+    /*letter-spacing: 0.25em;*/
+    letter-spacing: 0.08em;
+    border-bottom: 1px #2d2d2d solid;
+    cursor: pointer;
+}
+
+.side-menu-btn:last-child {
+    margin-bottom: 48px;
+}
+
+/*.side-menu-btn img {*/
+.side-menu-btn svg {
+    /*margin-right: 14px;*/
+    margin-right: 12px;
+    /*vertical-align: baseline;*/
+    vertical-align: text-top;
+
+    -webkit-transform: rotate(0);
+       -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+         -o-transform: rotate(0);
+            transform: rotate(0);
+
+    -webkit-transition  : 0.3s;
+            transition  : 0.3s;
+}
+
+.side-menu-btn.open svg {
+    -webkit-transform: rotate(90deg);
+       -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+         -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+
+.legal-wrap,
+.share-wrap {
+    background: #111;
+    display: none;
+}
+
+.legal-wrap li,
+.share-wrap li {
+    height: 48px;
+    line-height: 48px;
+    /*letter-spacing: 0.25em;*/
+    letter-spacing: 0.08em;
+    border-bottom: 1px #222 solid;
+}
+
+.legal-wrap li:last-child,
+.share-wrap li:last-child {
+    border-bottom: 1px #2d2d2d solid;
+}
+
+.legal-wrap a,
+.share-wrap a {
+    display: block;
+    height: 48px;
+    padding-left: 55px;
+    cursor: pointer;
+}
+
+.side-menu-txt {
+/*    -webkit-transition  : -webkit-transform 0.5s 0.2s;
+            transition  :         transform 0.5s 0.2s;*/
+    -webkit-transform: translateX(200px);
+       -moz-transform: translateX(200px);
+        -ms-transform: translateX(200px);
+         -o-transform: translateX(200px);
+            transform: translateX(200px);
+}
+
+
+/* ************************************************************
+    cookie policy
+************************************************************ */
+
+.cookie-wrap {
+    display: table;
+    position: fixed;
+    width: 100%;
+    height: 108%;
+    left: 0;
+    top: -4%;
+    /*padding: 5px 30px;*/
+    padding: 5px 40px;
+    background: rgba(0,0,0,0.75);
+    color: #fff;
+    z-index: 50;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+.cookie-cont {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.cookie-cont-inner {
+    max-width: 600px;
+    margin: 0 auto;
+    /*border: 2px #fff solid;*/
+    /*padding: 24px;*/
+    overflow: hidden;
+}
+
+.cookie-title {
+    font-family: 'DINCondensed-Regular', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    /*line-height: 1.8;*/
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.cookie-body {
+    /*margin-bottom: 30px;*/
+    margin-bottom: 40px;
+}
+
+
+.cookie-body a:link    { color: #ffffff; text-decoration: underline; }
+.cookie-body a:visited { color: #ffffff; text-decoration: underline; }
+.cookie-body a:hover   { color: #ffffff; text-decoration: underline; }
+.cookie-body a:active  { color: #ffffff; text-decoration: underline; }
+
+
+
+.btn-cookie-apply,
+.btn-cookie-more {
+    width: 46%;
+    max-width: 120px;
+    font-family: 'DINCondensed-Regular', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    line-height: 1;
+    text-align: center;
+    -webkit-border-radius : 2px;
+     -khtml-border-radius : 2px;
+       -moz-border-radius : 2px;
+            border-radius : 2px;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+.btn-cookie-apply {
+    padding: 8px 10px 6px;
+    background: #fff;
+    color: #000;
+    float: left;
+    margin-right: 8%;
+    cursor: pointer;
+}
+
+/*@media (min-width: 445px) {*/
+@media (min-width: 425px) {
+    .btn-cookie-apply {
+        margin-right: 25px;
+    }
+}
+
+.btn-cookie-more {
+    border: 1px #fff solid;
+    float: left
+}
+
+.btn-cookie-more a {
+    display: block;
+    padding: 7px 10px 5px;
+}
+
